@@ -1,4 +1,3 @@
-# python_projetos
-Python
+# Python
 
 Calculadora básica em python.
