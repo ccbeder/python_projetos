@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#Funções
 def soma(x, y):
     	return x + y
 def subtracao(x, y):
@@ -8,7 +7,7 @@ def multiplicacao(x, y):
 	return x * y
 def divisao(x, y):
 	return x / y
-# função que chama o menu
+
 def menu():
     global escolha
     print("Selecione:")
@@ -20,20 +19,19 @@ def menu():
     else:
         print('Opção inválida:')
         menu()
-# funcao que chamada os numeros informados pelo usuario
+
 def numeros():
     global num1, num2
-    # tratamento para caso o user nao informe numeros
     try:
         num1 = float(input("Digite o primeiro número:\n"))
         num2 = float(input("Digite o segundo número:\n"))
     except:
         print('Não é um numero válido')
         numeros()
-# Inicio
+
+# Retornar ao inicio
 menu()
 
-# Printando os resultados
 if escolha == '1':
 	print("Resultado: ", soma(num1, num2))
 elif escolha == '2':
@@ -41,7 +39,6 @@ elif escolha == '2':
 elif escolha == '3':
 	print("Resultado: ", multiplicacao(num1, num2))
 elif escolha == '4':
-    # Tratamento de divisao por zero
     try:
 	    print("Resultado: ", divisao(num1, num2))
     except ZeroDivisionError as msg:
