@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #Funções
 def soma(x, y):
     	return x + y
