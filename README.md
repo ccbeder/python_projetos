@@ -1,3 +1,3 @@
 # Python
 
-Calculadora básica em python.
+Calculadora básica desenvolvida na linguagem python.
