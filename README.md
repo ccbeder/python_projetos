@@ -1,3 +1,3 @@
-# Python
+# Calculadora em Python
 
 Calculadora básica desenvolvida na linguagem python.
