@@ -3,3 +3,4 @@
 Calculadora básica desenvolvida na linguagem python.
 
 * Utilizado função
+* Exceção
